@@ -6,5 +6,10 @@ namespace CalculadoraC_Sharp
         {
             InitializeComponent();
         }
+
+        private void btnApagar_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

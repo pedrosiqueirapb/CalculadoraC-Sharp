@@ -1,0 +1,423 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnApagar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnApagar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="btnApagar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 96</value>
+  </data>
+  <data name="btnApagar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnApagar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnApagar.Text" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="potenciacao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="potenciacao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="potenciacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 96</value>
+  </data>
+  <data name="potenciacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="potenciacao.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="potenciacao.Text" xml:space="preserve">
+    <value>x²</value>
+  </data>
+  <data name="porcentagem.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="porcentagem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="porcentagem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 96</value>
+  </data>
+  <data name="porcentagem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="porcentagem.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="porcentagem.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="adicao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="adicao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="adicao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 96</value>
+  </data>
+  <data name="adicao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="adicao.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="adicao.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="subtracao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="subtracao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="subtracao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 163</value>
+  </data>
+  <data name="subtracao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="subtracao.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="subtracao.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="btnSeven.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnSeven.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="btnSeven.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 163</value>
+  </data>
+  <data name="btnSeven.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="btnSeven.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnSeven.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnEight.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnEight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="btnEight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 163</value>
+  </data>
+  <data name="btnEight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="btnEight.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnEight.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnNine.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnNine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="btnNine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 163</value>
+  </data>
+  <data name="btnNine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="btnNine.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnNine.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="multiplicacao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="multiplicacao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="multiplicacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 230</value>
+  </data>
+  <data name="multiplicacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="multiplicacao.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="multiplicacao.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="btnFour.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnFour.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="btnFour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 230</value>
+  </data>
+  <data name="btnFour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="btnFour.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnFour.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnFive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnFive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="btnFive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 230</value>
+  </data>
+  <data name="btnFive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="btnFive.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnFive.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnSix.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnSix.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="btnSix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 230</value>
+  </data>
+  <data name="btnSix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="btnSix.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnSix.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="divisao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="divisao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="divisao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 297</value>
+  </data>
+  <data name="divisao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="divisao.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="divisao.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="btnUm.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnUm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="btnUm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 297</value>
+  </data>
+  <data name="btnUm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="btnUm.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnUm.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnTwo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnTwo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="btnTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 297</value>
+  </data>
+  <data name="btnTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="btnTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnTwo.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnThree.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnThree.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="btnThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 297</value>
+  </data>
+  <data name="btnThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="btnThree.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnThree.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="igualdade.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="igualdade.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="igualdade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 364</value>
+  </data>
+  <data name="igualdade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="igualdade.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="igualdade.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="virgula.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="virgula.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="virgula.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 364</value>
+  </data>
+  <data name="virgula.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
+  <data name="virgula.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="virgula.Text" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="btnZero.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnZero.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="btnZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 364</value>
+  </data>
+  <data name="btnZero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 61</value>
+  </data>
+  <data name="btnZero.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btnZero.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="telaResposta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="telaResposta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="telaResposta.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="telaResposta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 68</value>
+  </data>
+  <data name="telaResposta.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="telaResposta.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+</root>

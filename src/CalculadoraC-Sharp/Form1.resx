@@ -77,9 +77,6 @@
   <data name="button19.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 364</value>
   </data>
-  <data name="&gt;&gt;button12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -108,14 +105,14 @@
   <data name="&gt;&gt;porcentagem.Name" xml:space="preserve">
     <value>porcentagem</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Form1</value>
+  <data name="&gt;&gt;btnFour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnNine.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="&gt;&gt;button11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;button11.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="button6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Trebuchet MS, 20.25pt, style=Bold</value>
@@ -141,9 +138,6 @@
   <data name="button19.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
-  <data name="telaResposta.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
   <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 61</value>
   </data>
@@ -168,26 +162,20 @@
   <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
-  <data name="&gt;&gt;btnTwo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 61</value>
   </data>
   <data name="button10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
-  <data name="&gt;&gt;button7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
   </data>
   <data name="&gt;&gt;btnEight.Name" xml:space="preserve">
     <value>btnEight</value>
-  </data>
-  <data name="&gt;&gt;btnZero.Name" xml:space="preserve">
-    <value>btnZero</value>
   </data>
   <data name="button15.Font" type="System.Drawing.Font, System.Drawing">
     <value>Trebuchet MS, 20.25pt, style=Bold</value>
@@ -204,14 +192,11 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>352, 439</value>
   </data>
-  <data name="btnThree.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 297</value>
+  <data name="&gt;&gt;btnSix.Name" xml:space="preserve">
+    <value>btnSix</value>
   </data>
-  <data name="&gt;&gt;button11.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;button16.Name" xml:space="preserve">
-    <value>button16</value>
+  <data name="&gt;&gt;button18.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="button16.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -222,6 +207,9 @@
   <data name="&gt;&gt;subtracao.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
   </data>
@@ -230,9 +218,6 @@
   </data>
   <data name="&gt;&gt;button2.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnSix.Name" xml:space="preserve">
-    <value>btnSix</value>
   </data>
   <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -246,8 +231,8 @@
   <data name="&gt;&gt;button9.Name" xml:space="preserve">
     <value>button9</value>
   </data>
-  <data name="adicao.Location" type="System.Drawing.Point, System.Drawing">
-    <value>270, 96</value>
+  <data name="&gt;&gt;telaResposta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnSix.ZOrder" xml:space="preserve">
     <value>11</value>
@@ -288,14 +273,17 @@
   <data name="&gt;&gt;adicao.Name" xml:space="preserve">
     <value>adicao</value>
   </data>
+  <data name="btnThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 297</value>
+  </data>
   <data name="btnUm.Location" type="System.Drawing.Point, System.Drawing">
     <value>184, 297</value>
   </data>
   <data name="&gt;&gt;btnThree.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 230</value>
+  <data name="button13.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
   <data name="btnEight.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -306,11 +294,11 @@
   <data name="button18.Location" type="System.Drawing.Point, System.Drawing">
     <value>184, 364</value>
   </data>
-  <data name="igualdade.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
   <data name="&gt;&gt;potenciacao.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="button18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;button19.Name" xml:space="preserve">
     <value>button19</value>
@@ -318,17 +306,14 @@
   <data name="&gt;&gt;button11.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
   <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="button14.Location" type="System.Drawing.Point, System.Drawing">
     <value>184, 297</value>
   </data>
-  <data name="button16.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
+  <data name="&gt;&gt;button12.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;btnSeven.Parent" xml:space="preserve">
     <value>$this</value>
@@ -350,6 +335,9 @@
   </data>
   <data name="btnSix.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;button11.Name" xml:space="preserve">
     <value>button11</value>
@@ -380,9 +368,6 @@
   </data>
   <data name="button8.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnZero.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="button11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Trebuchet MS, 20.25pt, style=Bold</value>
@@ -432,6 +417,9 @@
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Trebuchet MS, 20.25pt, style=Bold</value>
   </data>
+  <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 230</value>
+  </data>
   <data name="button4.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
@@ -444,9 +432,6 @@
   <data name="btnZero.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 364</value>
   </data>
-  <data name="&gt;&gt;button19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;btnTwo.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -456,20 +441,23 @@
   <data name="button11.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;telaResposta.Name" xml:space="preserve">
-    <value>telaResposta</value>
-  </data>
   <data name="&gt;&gt;btnZero.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="&gt;&gt;btnNine.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;button16.Name" xml:space="preserve">
+    <value>button16</value>
+  </data>
   <data name="&gt;&gt;button5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="virgula.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+  <data name="&gt;&gt;btnTwo.Name" xml:space="preserve">
+    <value>btnTwo</value>
   </data>
   <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Trebuchet MS, 20.25pt, style=Bold</value>
@@ -486,17 +474,14 @@
   <data name="&gt;&gt;button10.Name" xml:space="preserve">
     <value>button10</value>
   </data>
-  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  <data name="&gt;&gt;potenciacao.ZOrder" xml:space="preserve">
+    <value>18</value>
   </data>
   <data name="button9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Trebuchet MS, 20.25pt, style=Bold</value>
   </data>
   <data name="btnZero.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
-  </data>
-  <data name="&gt;&gt;button16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button17.Parent" xml:space="preserve">
     <value>$this</value>
@@ -505,6 +490,9 @@
     <value>2</value>
   </data>
   <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button18.Parent" xml:space="preserve">
@@ -522,11 +510,8 @@
   <data name="btnApagar.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 96</value>
   </data>
-  <data name="button11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 61</value>
-  </data>
-  <data name="&gt;&gt;btnFour.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;virgula.Name" xml:space="preserve">
+    <value>virgula</value>
   </data>
   <data name="&gt;&gt;btnEight.Parent" xml:space="preserve">
     <value>$this</value>
@@ -534,14 +519,17 @@
   <data name="button12.Text" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="button11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 61</value>
+  </data>
   <data name="&gt;&gt;button16.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;multiplicacao.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="button18.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="divisao.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -579,8 +567,8 @@
   <data name="&gt;&gt;button9.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button18.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="button5.Text" xml:space="preserve">
+    <value>-</value>
   </data>
   <data name="button15.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -588,8 +576,8 @@
   <data name="button17.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 61</value>
   </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="telaResposta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
   </data>
   <data name="button7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -602,6 +590,9 @@
   </data>
   <data name="divisao.Location" type="System.Drawing.Point, System.Drawing">
     <value>270, 297</value>
+  </data>
+  <data name="button17.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
   </data>
   <data name="button11.Text" xml:space="preserve">
     <value>5</value>
@@ -618,11 +609,11 @@
   <data name="&gt;&gt;button14.Name" xml:space="preserve">
     <value>button14</value>
   </data>
-  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;telaResposta.Name" xml:space="preserve">
+    <value>telaResposta</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;button12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button8.Name" xml:space="preserve">
     <value>button8</value>
@@ -630,11 +621,8 @@
   <data name="button11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
-  <data name="&gt;&gt;potenciacao.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="button16.Text" xml:space="preserve">
-    <value>3</value>
+  <data name="igualdade.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -674,9 +662,6 @@
   </data>
   <data name="&gt;&gt;btnFour.ZOrder" xml:space="preserve">
     <value>9</value>
-  </data>
-  <data name="&gt;&gt;virgula.Name" xml:space="preserve">
-    <value>virgula</value>
   </data>
   <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 61</value>
@@ -765,11 +750,8 @@
   <data name="button8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Trebuchet MS, 20.25pt, style=Bold</value>
   </data>
-  <data name="button7.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;btnTwo.Name" xml:space="preserve">
-    <value>btnTwo</value>
+  <data name="&gt;&gt;button11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="button13.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 61</value>
@@ -801,8 +783,8 @@
   <data name="&gt;&gt;btnFive.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;btnFour.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnZero.Name" xml:space="preserve">
+    <value>btnZero</value>
   </data>
   <data name="&gt;&gt;button14.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -810,8 +792,8 @@
   <data name="button18.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
-  <data name="button5.Text" xml:space="preserve">
-    <value>-</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
   </data>
   <data name="&gt;&gt;button14.Parent" xml:space="preserve">
     <value>$this</value>
@@ -830,6 +812,9 @@
   </data>
   <data name="button14.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 61</value>
+  </data>
+  <data name="button16.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
   </data>
   <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
     <value>184, 96</value>
@@ -858,8 +843,8 @@
   <data name="virgula.Location" type="System.Drawing.Point, System.Drawing">
     <value>184, 364</value>
   </data>
-  <data name="&gt;&gt;button12.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="button17.Text" xml:space="preserve">
+    <value>=</value>
   </data>
   <data name="button19.Font" type="System.Drawing.Font, System.Drawing">
     <value>Trebuchet MS, 20.25pt, style=Bold</value>
@@ -872,9 +857,6 @@
   </data>
   <data name="textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
-  </data>
-  <data name="&gt;&gt;telaResposta.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>16</value>
@@ -893,6 +875,9 @@
   </data>
   <data name="&gt;&gt;igualdade.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;button6.Name" xml:space="preserve">
+    <value>button6</value>
   </data>
   <data name="&gt;&gt;button15.Parent" xml:space="preserve">
     <value>$this</value>
@@ -921,9 +906,6 @@
   <data name="button12.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 61</value>
   </data>
-  <data name="button17.Text" xml:space="preserve">
-    <value>=</value>
-  </data>
   <data name="&gt;&gt;telaResposta.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
@@ -942,8 +924,8 @@
   <data name="button17.Font" type="System.Drawing.Font, System.Drawing">
     <value>Trebuchet MS, 20.25pt, style=Bold</value>
   </data>
-  <data name="button17.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="&gt;&gt;btnFour.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;divisao.Parent" xml:space="preserve">
     <value>$this</value>
@@ -957,14 +939,23 @@
   <data name="&gt;&gt;igualdade.Name" xml:space="preserve">
     <value>igualdade</value>
   </data>
+  <data name="adicao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 96</value>
+  </data>
   <data name="btnApagar.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="button19.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;btnUm.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="button13.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="button7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;button16.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -984,7 +975,10 @@
   <data name="&gt;&gt;button14.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
+  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 20.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnZero.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button6.Type" xml:space="preserve">
@@ -996,8 +990,11 @@
   <data name="button18.Text" xml:space="preserve">
     <value>.</value>
   </data>
-  <data name="button19.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 163</value>
+  </data>
+  <data name="virgula.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
   </data>
   <data name="btnFive.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1005,8 +1002,8 @@
   <data name="&gt;&gt;button15.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>270, 163</value>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>15</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>328, 72</value>
@@ -1020,20 +1017,23 @@
   <data name="button13.Location" type="System.Drawing.Point, System.Drawing">
     <value>270, 297</value>
   </data>
+  <data name="button16.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="&gt;&gt;btnFive.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="button6.Text" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;button19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button6.Name" xml:space="preserve">
-    <value>button6</value>
+  <data name="&gt;&gt;btnTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="button12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>%</value>
+  <data name="&gt;&gt;button16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
     <value>19</value>

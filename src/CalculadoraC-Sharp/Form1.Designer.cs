@@ -54,7 +54,7 @@
             // btnApagar
             // 
             resources.ApplyResources(this.btnApagar, "btnApagar");
-            this.btnApagar.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnApagar.BackColor = System.Drawing.Color.Snow;
             this.btnApagar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnApagar.Name = "btnApagar";
             this.btnApagar.UseVisualStyleBackColor = false;
@@ -63,18 +63,20 @@
             // potenciacao
             // 
             resources.ApplyResources(this.potenciacao, "potenciacao");
-            this.potenciacao.BackColor = System.Drawing.Color.GhostWhite;
+            this.potenciacao.BackColor = System.Drawing.Color.Snow;
             this.potenciacao.Cursor = System.Windows.Forms.Cursors.Hand;
             this.potenciacao.Name = "potenciacao";
             this.potenciacao.UseVisualStyleBackColor = false;
+            this.potenciacao.Click += new System.EventHandler(this.potenciacao_Click);
             // 
             // porcentagem
             // 
             resources.ApplyResources(this.porcentagem, "porcentagem");
-            this.porcentagem.BackColor = System.Drawing.Color.GhostWhite;
+            this.porcentagem.BackColor = System.Drawing.Color.Snow;
             this.porcentagem.Cursor = System.Windows.Forms.Cursors.Hand;
             this.porcentagem.Name = "porcentagem";
             this.porcentagem.UseVisualStyleBackColor = false;
+            this.porcentagem.Click += new System.EventHandler(this.porcentagem_Click);
             // 
             // adicao
             // 
@@ -84,6 +86,7 @@
             this.adicao.ForeColor = System.Drawing.Color.White;
             this.adicao.Name = "adicao";
             this.adicao.UseVisualStyleBackColor = false;
+            this.adicao.Click += new System.EventHandler(this.adicao_Click);
             // 
             // subtracao
             // 
@@ -93,30 +96,34 @@
             this.subtracao.ForeColor = System.Drawing.Color.White;
             this.subtracao.Name = "subtracao";
             this.subtracao.UseVisualStyleBackColor = false;
+            this.subtracao.Click += new System.EventHandler(this.subtracao_Click);
             // 
             // btnSeven
             // 
             resources.ApplyResources(this.btnSeven, "btnSeven");
-            this.btnSeven.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnSeven.BackColor = System.Drawing.Color.Snow;
             this.btnSeven.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSeven.Name = "btnSeven";
             this.btnSeven.UseVisualStyleBackColor = false;
+            this.btnSeven.Click += new System.EventHandler(this.btnSeven_Click);
             // 
             // btnEight
             // 
             resources.ApplyResources(this.btnEight, "btnEight");
-            this.btnEight.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnEight.BackColor = System.Drawing.Color.Snow;
             this.btnEight.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEight.Name = "btnEight";
             this.btnEight.UseVisualStyleBackColor = false;
+            this.btnEight.Click += new System.EventHandler(this.btnEight_Click);
             // 
             // btnNine
             // 
             resources.ApplyResources(this.btnNine, "btnNine");
-            this.btnNine.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnNine.BackColor = System.Drawing.Color.Snow;
             this.btnNine.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNine.Name = "btnNine";
             this.btnNine.UseVisualStyleBackColor = false;
+            this.btnNine.Click += new System.EventHandler(this.btnNine_Click);
             // 
             // multiplicacao
             // 
@@ -126,30 +133,34 @@
             this.multiplicacao.ForeColor = System.Drawing.Color.White;
             this.multiplicacao.Name = "multiplicacao";
             this.multiplicacao.UseVisualStyleBackColor = false;
+            this.multiplicacao.Click += new System.EventHandler(this.multiplicacao_Click);
             // 
             // btnFour
             // 
             resources.ApplyResources(this.btnFour, "btnFour");
-            this.btnFour.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnFour.BackColor = System.Drawing.Color.Snow;
             this.btnFour.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFour.Name = "btnFour";
             this.btnFour.UseVisualStyleBackColor = false;
+            this.btnFour.Click += new System.EventHandler(this.btnFour_Click);
             // 
             // btnFive
             // 
             resources.ApplyResources(this.btnFive, "btnFive");
-            this.btnFive.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnFive.BackColor = System.Drawing.Color.Snow;
             this.btnFive.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFive.Name = "btnFive";
             this.btnFive.UseVisualStyleBackColor = false;
+            this.btnFive.Click += new System.EventHandler(this.btnFive_Click);
             // 
             // btnSix
             // 
             resources.ApplyResources(this.btnSix, "btnSix");
-            this.btnSix.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnSix.BackColor = System.Drawing.Color.Snow;
             this.btnSix.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSix.Name = "btnSix";
             this.btnSix.UseVisualStyleBackColor = false;
+            this.btnSix.Click += new System.EventHandler(this.btnSix_Click);
             // 
             // divisao
             // 
@@ -159,30 +170,34 @@
             this.divisao.ForeColor = System.Drawing.Color.White;
             this.divisao.Name = "divisao";
             this.divisao.UseVisualStyleBackColor = false;
+            this.divisao.Click += new System.EventHandler(this.divisao_Click);
             // 
             // btnUm
             // 
             resources.ApplyResources(this.btnUm, "btnUm");
-            this.btnUm.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnUm.BackColor = System.Drawing.Color.Snow;
             this.btnUm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUm.Name = "btnUm";
             this.btnUm.UseVisualStyleBackColor = false;
+            this.btnUm.Click += new System.EventHandler(this.btnUm_Click);
             // 
             // btnTwo
             // 
             resources.ApplyResources(this.btnTwo, "btnTwo");
-            this.btnTwo.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnTwo.BackColor = System.Drawing.Color.Snow;
             this.btnTwo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTwo.Name = "btnTwo";
             this.btnTwo.UseVisualStyleBackColor = false;
+            this.btnTwo.Click += new System.EventHandler(this.btnTwo_Click);
             // 
             // btnThree
             // 
             resources.ApplyResources(this.btnThree, "btnThree");
-            this.btnThree.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnThree.BackColor = System.Drawing.Color.Snow;
             this.btnThree.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnThree.Name = "btnThree";
             this.btnThree.UseVisualStyleBackColor = false;
+            this.btnThree.Click += new System.EventHandler(this.btnThree_Click);
             // 
             // igualdade
             // 
@@ -192,22 +207,25 @@
             this.igualdade.ForeColor = System.Drawing.Color.White;
             this.igualdade.Name = "igualdade";
             this.igualdade.UseVisualStyleBackColor = false;
+            this.igualdade.Click += new System.EventHandler(this.igualdade_Click);
             // 
             // virgula
             // 
             resources.ApplyResources(this.virgula, "virgula");
-            this.virgula.BackColor = System.Drawing.Color.GhostWhite;
+            this.virgula.BackColor = System.Drawing.Color.Snow;
             this.virgula.Cursor = System.Windows.Forms.Cursors.Hand;
             this.virgula.Name = "virgula";
             this.virgula.UseVisualStyleBackColor = false;
+            this.virgula.Click += new System.EventHandler(this.virgula_Click);
             // 
             // btnZero
             // 
             resources.ApplyResources(this.btnZero, "btnZero");
-            this.btnZero.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnZero.BackColor = System.Drawing.Color.Snow;
             this.btnZero.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZero.Name = "btnZero";
             this.btnZero.UseVisualStyleBackColor = false;
+            this.btnZero.Click += new System.EventHandler(this.btnZero_Click);
             // 
             // telaResposta
             // 
@@ -220,7 +238,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Snow;
+            this.BackColor = System.Drawing.Color.Black;
             this.Controls.Add(this.telaResposta);
             this.Controls.Add(this.igualdade);
             this.Controls.Add(this.virgula);
@@ -241,7 +259,7 @@
             this.Controls.Add(this.porcentagem);
             this.Controls.Add(this.potenciacao);
             this.Controls.Add(this.btnApagar);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.TransparencyKey = System.Drawing.Color.Transparent;
